@@ -365,7 +365,7 @@ pub use eyre;
 pub use eyre::Report;
 #[doc(hidden)]
 pub use eyre::Result;
-pub use owo_colors;
+pub use owo_colors::style;
 use section::help::HelpInfo;
 #[doc(hidden)]
 pub use section::Section as Help;
